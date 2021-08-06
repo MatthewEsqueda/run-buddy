@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Run Buddy</title>    
-        <link rel="stylesheet" href="style.css" />  
+        <link rel="stylesheet" type="text/css" href="../run-buddy/style.css"/>  
 
     </head>
 
@@ -14,70 +14,83 @@
         <h1> 
             <a href="/">RUN BUDDY</a>
         </h1>       
-        <nav>
-            <!--unordered list item-->
-            <ul>
-                    <!--list item element-->
-                <li>
-                    <!--anchor element-->
-                    <a href=#what-we-do>What We Do</a> 
-                </li>
-                <li>
-                    <a href=#what-you-do>What You Do</a>
-                </li>
-                <li>
-                    <a href=#your-trainers>Your Trainers</a>
-                </li>
-                <li>
-                    <a href=#reach-out>Reach Out</a>
-                </li>           
+        <nav> 
+                <!--unordered list item-->
+            <ul>    
+                <!--list item element-->
+            <li>
+                 <!--anchor element-->
+                <a href=#what-we-do>What We Do</a> 
+            </li>
+            <li>
+                 <a href=#what-you-do>What You Do</a>
+            </li>
+            <li>
+                <a href=#your-trainers>Your Trainers</a>
+            </li>
+            <li>
+                <a href=#reach-out>Reach Out</a>
+            </li> 
             </ul>
         </nav>        
     </header>   
 
 
         <!--jumbotron--> <!--div inside section-->
-        <section>
-            <div>
-                <h3>Get Started Today</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult; </p>
+    <section class="hero">
+        <div>
+        <h3>Get Started Today</h3>
+        <p>Fill out this form and one of our trainers will schedule a consult; </p>
                 <!--adding form element-->
-            <form>
-                <label for="name">Enter Your Name:</label>
-                <input type="text" placeholder="Your Name" name="name" id="name" />
-                <label for="email">Enter Email Address:</label>
-                <input type="text" placeholder="Email Adress" name="email" id="email" />
-                <label for="number">Enter a telephone number:</label>
-                <input type="text" placeholder="Phone Number" name="phone" id="phone" />
-                <p>Have you worked with out trainers before?
-                <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                <label for="trainer-yes">Yes</label>
-                <input type="radio" name="trainer-confirm" id="trainer-no" />
-                <label for="trainer-no">No</label>
-                </p>
-            </form>
-            </div>
-        </section>
+        <form>
+                <!--sign up info/hero-->
+            <label for="name">Enter Your Name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" />
+            <label for="email">Enter Email Address:</label>
+            <input type="email" placeholder="Email Adress" name="email" id="email" />
+            <label for="number">Enter a telephone number:</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <!--radio button-->
+            <p>Have you worked with out trainers before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+            </p>
+                <!--checkbox-->
+            <p>
+            <label for="checkbox">
+              I acknowledge that i am at least 18 years of age.
+            </label>
+            <input type="checkbox" name="age-confirm" id="checkbox" />
+            </p>
+                <!--submit button-->
+            <button type="submit">Get Running!</button>
+
+        </form>
+        </div>
+    </section>
+        <!--End Hero-->
 
         <!--what we do section--> 
-        <section></section>
-            <h2>What We Do</h2>
-        </section>
+    <section>
+       <h2>What We Do</h2>
+    </section>
 
         <!--what you do section-->
-        <section>
-            <h2>What You Do</h2>
-        </section>
+    <section>
+        <h2>What You Do</h2>
+    </section>
          
         <!--your trainers section-->
-        <section>
-            <h2>Your Trainers</h2>   
-        </section>
+     <section>
+        <h2>Your Trainers</h2>   
+    </section>
 
         <!--reach out section-->
-        <section>
-            <h2> Reach Out</h2>
-        </section>
+     <section>
+        <h2> Reach Out</h2>
+     </section>
         
         <!--footer-->
     <footer>
