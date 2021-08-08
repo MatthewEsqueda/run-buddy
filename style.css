@@ -81,3 +81,64 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/*1.3.4-Section(jumbotron and hero and form)*/
+section {
+    padding: 60px;
+    /*background-image: url("../images/hero-bg.jpeg") no repeat;*/   
+}
+
+/* hero style start-image/size/positioning*/ 
+.hero {
+    background-image: url("../images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* hero style end */
+
+/* form box styling */
+.hero-form {
+    font-color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+/* styling sign up form - heading,text spacing,input, making it look more accessible */
+.hero-form p {
+    margin: 5px 0 15px 0;
+    color: #024e76;
+}
+.hero-form h3 {
+    font-size: 24px;
+    color: #024e76;
+}
+.form-input {
+    border: solid 1px #024e76;
+    padding: 7px 15px;
+    margin: 1px;
+    display: block;
+    font-size: 14px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/* end sign up form styling */
+
+/* radio button styling */
+.hero-form label {
+    color: #024e76;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
