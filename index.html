@@ -3,10 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Run Buddy</title>    
-        <link rel="stylesheet" type="text/css" href="../run-buddy/style.css"/>  
+        <link rel="stylesheet" type="text/css" href="../../assets/css/style.css"/>  
 
     </head>
-
     <body>
 
         <!--navigation-->
@@ -38,18 +37,21 @@
 
         <!--jumbotron--> <!--div inside section-->
     <section class="hero">
-        <div>
+
+        <div class="hero-form">
         <h3>Get Started Today</h3>
-        <p>Fill out this form and one of our trainers will schedule a consult; </p>
+        <p>Fill out this form and one of our trainers will schedule a consult</p>
                 <!--adding form element-->
         <form>
                 <!--sign up info/hero-->
-            <label for="name">Enter Your Name:</label>
-            <input type="text" placeholder="Your Name" name="name" id="name" />
-            <label for="email">Enter Email Address:</label>
-            <input type="email" placeholder="Email Adress" name="email" id="email" />
+            <label for="name">Enter full name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+
+            <label for="email">Enter email address:</label>
+            <input type="email" placeholder="Email Adress" name="email" id="email" class="form-input" />
+
             <label for="number">Enter a telephone number:</label>
-            <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
                 <!--radio button-->
             <p>Have you worked with out trainers before?
             <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -69,29 +71,66 @@
 
         </form>
         </div>
+
     </section>
         <!--End Hero-->
 
-        <!--what we do section--> 
-    <section>
-       <h2>What We Do</h2>
+
+
+        <!--what we do section INTRO CLASS--> 
+    <section id="what-we-do" class="intro">
+       <h2 class="section-title primary-border">What We Do</h2>
+       <p>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus reprehenderit pariatur eligendi quas voluptatum debitis deserunt cum eaque porro cupiditate? Asperiores, eligendi aut consequuntur amet at sequi blanditiis. Nostrum, totam?
+       </p>
     </section>
 
-        <!--what you do section-->
-    <section>
-        <h2>What You Do</h2>
+
+
+        <!--what you do section THESE ARE THE STEPS CLASS-->
+    <section id="what-you-do" class="steps">
+     <h2 class="section-title secondary-border">What You Do</h2>
+        <div>
+            <!--SVG IMAGE-->
+            <img src="../../assets/images/step-1.svg">
+            <h3> Step 1: <span>Fill out the form above</span></h3>
+            <p>please please please please please please</p>
+        </div>
+
+        <div>
+            <img src="../../assets/images/step-2.svg">
+            <h3> Step 2: <span>Consult with one of our trainers</span></h3>
+            <p> are you here to build muscle, lose weight, or just feel good?</p>
+        </div>
+
+        <div>
+            <img src="../../assets/images/step-3.svg">
+            <h3> Step 3: <span>Get running</span></h3>
+            <p>hit the ground when your trainer gives you the plan</p>
+        <div>
+
+        <div>
+            <img src="../../assets/images/step-4.svg">
+            <h3> Step 4: <span>See results</span></h3>
+            <p>bi weekly w your trainer to see results</p>
+        </div>
     </section>
          
+
+
         <!--your trainers section-->
-     <section>
+     <section id="your-trainers">
         <h2>Your Trainers</h2>   
     </section>
 
+
+
         <!--reach out section-->
-     <section>
+     <section id="reach-out">
         <h2> Reach Out</h2>
      </section>
         
+
         <!--footer-->
     <footer>
         <h2> ❤️ Made With Love From Run Buddy🏃</h2> 
@@ -100,7 +139,6 @@
             &copy; 2021 Run Buddy, Inc.
         </div>
     </footer>
-
 
     </body>
 </html>

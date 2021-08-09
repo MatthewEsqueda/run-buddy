@@ -100,7 +100,7 @@ section {
 
 /* form box styling */
 .hero-form {
-    font-color: #024e76;
+    color: #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
@@ -141,4 +141,80 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+}
+/* centering the what you do section */
+.intro {
+    text-align: center;
+}
+/* styling what you do header */
+/*.intro h2 {
+    display:inline-block;
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0px 100px 20px 100px;
+    border-bottom: 3px solid #fce138;
+} */
+/* intro paragraph styling */
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+/* styling what you do section */
+.steps {
+    text-align:center;
+    background-color: #fce138;
+}
+/* 1.4.6 */
+/*.steps h2 {
+    font: size 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0px 100px 20px 100px;
+    border-bottom: 3px solid #39a6b2;
+} */
+
+/* DRY 1.4.6 - defining properties to call on so i dont have to type out color and all that all over? WILL REPLACE INTRO H2 AND STEPS H2 */
+.section-title {
+    font-size: 55px;
+    color: #39a6b2;
+    margin-bottom: 35px;
+    padding: 0px 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+/* changing indivudual border colors */
+.primary-border {
+    border-color: #fce138
+}
+.secondary-border {
+    border-color: #39a6b2
+}
+
+/* i think this is fixing the sections and spacing and everything (hopefully border issue as well) */
+.steps div {
+    margin-bottom: 10px;
+}
+/* biggg difference in imade size, and i guess margin too? */
+.steps img {
+    width: 15%;
+    margin: 80px 0;
+}
+
+/* the h3 header that has steps (did i call this correctly) */
+.steps h3{
+    font-size: 46px;
+    color: #024e76;
+    margin-top: 10px;
+}
+.steps p{
+    color: #39a6b2;
+    font-size: 23px;
+}
+/* <span> in html steps section to make the steps title all the same size text */
+.steps span {
+    font-size: 38px;
 }
