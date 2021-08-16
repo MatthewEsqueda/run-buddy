@@ -94,12 +94,36 @@ section {
 
 /* hero style start-image/size/positioning*/ 
 .hero {
-    background-image: url("../images/hero-bg.jpeg");
+    background-image: url("../images/flipped-hero-image.jpeg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+    display: inline-block;
 }
+
+/* new feature/hero-text styling */
+
+.start-building-habits {
+    width: 40%;
+    margin: 0px;
+    padding: 50 auto;
+    position: relative;
+}
+.start-building-habits h3 {
+    text-align: right;
+    margin: 10px 50px;
+    padding: 50 auto;
+    font-size: 50px;
+    color: #fce138;
+}
+.start-building-habits p {
+    text-align: right;
+    margin: 0px 50px;
+    padding: 50 auto;
+    color: white;
+}
+
 /* hero style end */
 
 /* form box styling */
